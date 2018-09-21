@@ -1,0 +1,29 @@
+{
+  "name": "jwe-codec",
+  "version": "0.0.1",
+  "description": "Codec to encrypt any javascript value into a JsonWebEncryption (JWE)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adorsys/jwe-codec.git"
+  },
+  "keywords": [
+    "jwe",
+    "encrypt",
+    "decrypt",
+    "codec"
+  ],
+  "author": "Gunnar Radzom <github@radzom.net> (http://adorsys.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adorsys/jwe-codec/issues"
+  },
+  "homepage": "https://github.com/adorsys/jwe-codec#readme",
+  "dependencies": {
+    "hydration": "1.0.0",
+    "node-jose": "1.0.0"
+  }
+}
