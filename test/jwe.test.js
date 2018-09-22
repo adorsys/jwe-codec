@@ -9,11 +9,36 @@ const validJwk = {
 }
 
 const corruptJwks = [
-  { kty: 'EC', use: 'enc', alg: 'A256GCM', k: '1234567890123456789012345678901234567890123' },
-  { kty: 'oct', use: 'dec', alg: 'A256GCM', k: '1234567890123456789012345678901234567890123' },
-  { kty: 'oct', use: 'enc', alg: 'A128KW', k: '1234567890123456789012345678901234567890123' },
-  { kty: 'oct', use: 'enc', alg: 'A256GCM', k: '123456789012345678901234567890123456789012' },
-  { kty: 'oct', use: 'enc', alg: 'A256GCM', k: '12345678901234567890123456789012345678901234' }
+  {
+    kty: 'EC',
+    use: 'enc',
+    alg: 'A256GCM',
+    k: '1234567890123456789012345678901234567890123'
+  },
+  {
+    kty: 'oct',
+    use: 'dec',
+    alg: 'A256GCM',
+    k: '1234567890123456789012345678901234567890123'
+  },
+  {
+    kty: 'oct',
+    use: 'enc',
+    alg: 'A128KW',
+    k: '1234567890123456789012345678901234567890123'
+  },
+  {
+    kty: 'oct',
+    use: 'enc',
+    alg: 'A256GCM',
+    k: '123456789012345678901234567890123456789012'
+  },
+  {
+    kty: 'oct',
+    use: 'enc',
+    alg: 'A256GCM',
+    k: '12345678901234567890123456789012345678901234'
+  }
 ]
 
 const testValues = [
@@ -31,7 +56,14 @@ const testValues = [
     date: new Date(42),
     regex: /^fortytwo/,
     buffer: Buffer.from('fortytwo'),
-    array: [null, 42, 'fortytwo', new Date(42), /^fortytwo$/, Buffer.from('fortytwo')]
+    array: [
+      null,
+      42,
+      'fortytwo',
+      new Date(42),
+      /^fortytwo$/,
+      Buffer.from('fortytwo')
+    ]
   }
 ]
 
