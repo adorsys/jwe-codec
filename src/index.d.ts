@@ -1,4 +1,4 @@
-interface JWK {
+export interface JWK {
   kty: 'oct',
   kid?: string,
   alg?: 'A256KW' | 'A256GCM' | 'A256GCMKW',
@@ -6,7 +6,7 @@ interface JWK {
   k: string
 }
 
-interface Codec {
+export interface Codec {
   encrypt(value: any): Promise<string>,
   decrypt(cipher: string): Promise<any>
 }

@@ -1,6 +1,6 @@
 {
   "name": "@adorsys/jwe-codec",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.2",
   "description": "Codec to encrypt any javascript value into a JsonWebEncryption (JWE)",
   "main": "src/index.js",
   "types": "src/index.d.ts",

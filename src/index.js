@@ -38,4 +38,5 @@ async function jwe (jwk) {
   }
 }
 
+jwe.default = jwe
 module.exports = jwe
