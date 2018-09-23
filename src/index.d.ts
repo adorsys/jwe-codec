@@ -7,8 +7,8 @@ interface JWK {
 }
 
 interface Codec {
-  encrypt: (any) => Promise<string>,
-  decrypt: (string) => Promise<any>
+  encrypt(value: any): Promise<string>,
+  decrypt(cipher: string): Promise<any>
 }
 
-export declare const jwe: () => Promise<Codec>
+export default function jwe(key: JWK): Promise<Codec>
