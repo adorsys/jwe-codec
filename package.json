@@ -3,6 +3,7 @@
   "version": "0.0.1-beta.0",
   "description": "Codec to encrypt any javascript value into a JsonWebEncryption (JWE)",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adorsys/jwe-codec.git"
