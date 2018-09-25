@@ -2,12 +2,11 @@
 
 
 [![NpmLicense](https://img.shields.io/npm/l/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
-[![Travis](https://img.shields.io/travis/adorsys/jwe-codec.svg)](https://travis-ci.org/adorsys/crypto-codecs)
+[![Travis](https://img.shields.io/travis/adorsys/jwe-codec.svg)](https://travis-ci.org/adorsys/jwe-codec)
 [![npm](https://img.shields.io/npm/v/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![npm](https://img.shields.io/npm/dt/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/radzom)
 
 
 
@@ -27,6 +26,7 @@ A library for encrypting/decrypting any JavaScript value as JsonWebEncryption (J
  - TypeScript support
  - support for symetric JsonWebKeys { kty: 'oct' }
  - supported algorithms 'A256KW', 'A256GCM', 'A256GCMKW'
+ - Continous integration with [Travis](https://travis-ci.org/adorsys/jwe-codec)
 
 
 ### Installation
