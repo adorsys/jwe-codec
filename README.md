@@ -2,6 +2,7 @@
 
 
 [![NpmLicense](https://img.shields.io/npm/l/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
+[![Travis](https://img.shields.io/travis/adorsys/jwe-codec.svg)](https://travis-ci.org/adorsys/crypto-codecs)
 [![npm](https://img.shields.io/npm/v/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![npm](https://img.shields.io/npm/dt/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -9,9 +10,8 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/radzom)
 
 
-<!-- 
-[![Travis](https://img.shields.io/travis/adorsys/crypto-codecs.svg)](https://travis-ci.org/adorsys/crypto-codecs)
 
+<!-- 
 [![Coveralls](https://img.shields.io/coveralls/adorsys/crypto-codecs.svg)](https://coveralls.io/github/adorsys/crypto-codecs)
 
 [![Dev Dependencies](https://david-dm.org/adorsys/crypto-codecs/dev-status.svg)](https://david-dm.org/adorsys/crypto-codecs?type=dev) 
