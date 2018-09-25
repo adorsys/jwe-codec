@@ -31,11 +31,12 @@
   "scripts": {
     "lint": "standard --verbose | snazzy",
     "format": "prettier-standard '**/*.js'",
-    "test": "npm run lint && nyc ava --verbose"
+    "test": "ava --verbose",
+    "test:cover": "nyc ava --verbose"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run test && lint-staged"
     }
   },
   "lint-staged": {
