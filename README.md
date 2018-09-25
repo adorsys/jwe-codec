@@ -37,17 +37,24 @@ npm install @adorsys/jwe-codec
 
 ### Usage
 
-#### with async/await
 
 ```js
 const jwe = require('@adorsys/jwe-codec')
 
 const key = {
-    kty: 'oct',
+  kty: 'oct',
     alg: 'A256GCM',
     use: 'enc',
     k: '123456789abcdefghijklmnopqrstuvwxyz12345678'
 }
+
+...
+```
+
+#### with async/await
+
+```js
+...
 
 ;(async () => {
     const codec = await jwe(key)
@@ -61,14 +68,7 @@ const key = {
 #### with Promises
 
 ```js
-const jwe = require('@adorsys/jwe-codec')
-
-const key = {
-    kty: 'oct',
-    alg: 'A256GCM',
-    use: 'enc',
-    k: '123456789abcdefghijklmnopqrstuvwxyz12345678'
-}
+...
 
 jwe(key).then(codec => {
     codec.encrypt(42).then(cipher => {
