@@ -1,4 +1,4 @@
-# jwe-codec
+# :closed_lock_with_key: jwe-codec :closed_lock_with_key:
 
 
 [![NpmLicense](https://img.shields.io/npm/l/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
