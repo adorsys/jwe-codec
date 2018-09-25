@@ -1,17 +1,17 @@
 # :closed_lock_with_key: jwe-codec :closed_lock_with_key:
 
 
-[![NpmLicense](https://img.shields.io/npm/l/@adorsys/jwe-codec.svg)](https://github.com/adorsys/jwe-codec/blob/master/LICENSE)
 [![Travis](https://img.shields.io/travis/adorsys/jwe-codec.svg)](https://travis-ci.org/adorsys/jwe-codec)
+[![Coveralls](https://img.shields.io/coveralls/adorsys/jwe-codec.svg)](https://coveralls.io/github/adorsys/jwe-codec)
 [![npm](https://img.shields.io/npm/v/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![npm](https://img.shields.io/npm/dt/@adorsys/jwe-codec.svg)](https://www.npmjs.com/package/@adorsys/jwe-codec)
 [![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier#readme)
+[![NpmLicense](https://img.shields.io/npm/l/@adorsys/jwe-codec.svg)](https://github.com/adorsys/jwe-codec/blob/master/LICENSE)
 
 
 <!-- 
-[![Coveralls](https://img.shields.io/coveralls/adorsys/crypto-codecs.svg)](https://coveralls.io/github/adorsys/crypto-codecs)
 
 [![Dev Dependencies](https://david-dm.org/adorsys/crypto-codecs/dev-status.svg)](https://david-dm.org/adorsys/crypto-codecs?type=dev) 
 -->
@@ -27,7 +27,6 @@ A library for encrypting/decrypting any JavaScript value as JsonWebEncryption (J
  - support for symetric JsonWebKeys { kty: 'oct' }
  - supported algorithms 'A256KW', 'A256GCM', 'A256GCMKW'
  - Continous integration with [Travis](https://travis-ci.org/adorsys/jwe-codec)
-
 
 ### Installation
 

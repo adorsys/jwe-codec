@@ -32,13 +32,14 @@
     "lint": "standard --verbose | snazzy",
     "format": "prettier-standard '**/*.js'",
     "test": "ava --verbose",
-    "test:cover": "nyc ava --verbose"
+    "test:cover": "nyc ava --verbose",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "npm run test && lint-staged"
-      }
+    }
   },
   "lint-staged": {
     "*.js": [
@@ -54,6 +55,7 @@
     "@commitlint/cli": "7.1.2",
     "@commitlint/config-conventional": "7.1.2",
     "ava": "1.0.0-beta.8",
+    "coveralls": "3.0.2",
     "eslint-plugin-html": "4.0.5",
     "eslint-plugin-markdown": "1.0.0-beta.6",
     "husky": "1.0.0-rc.15",
