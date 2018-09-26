@@ -25,7 +25,7 @@ A library for encrypting/decrypting any JavaScript value as JsonWebEncryption (J
  - Encrypting/Decrypting anything from (number, string, boolean, array, date, regex, buffer, object)
  - TypeScript support
  - support for symetric JsonWebKeys { kty: 'oct' }
- - supported algorithms 'A256KW', 'A256GCM', 'A256GCMKW'
+ - supported algorithms 'A256KW', 'A256GCM', 'A256GCMKW', 'A128CBC-HS256'
  - Continous integration with [Travis](https://travis-ci.org/adorsys/jwe-codec)
 
 ### Installation

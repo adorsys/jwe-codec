@@ -8,7 +8,6 @@ branches:
 cache:
   directories:
     - node_modules
-    - coverage
 notifications:
   email: false
 script:
