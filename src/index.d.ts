@@ -1,7 +1,7 @@
 export interface JWK {
   kty: 'oct',
   kid?: string,
-  alg?: 'A256KW' | 'A256GCM' | 'A256GCMKW',
+  alg?: 'A256KW' | 'A256GCM' | 'A256GCMKW' | 'A128CBC-HS256',
   use?: 'enc',
   k: string
 }

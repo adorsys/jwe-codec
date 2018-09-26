@@ -4,7 +4,9 @@ const hydra = require('hydration')
 function isKey (jwk) {
   return (
     ['oct'].includes(jwk.kty) &&
-    ['A256KW', 'A256GCMKW', 'A256GCM', undefined].includes(jwk.alg) &&
+    ['A256KW', 'A256GCMKW', 'A256GCM', 'A128CBC-HS256', undefined].includes(
+      jwk.alg
+    ) &&
     ['enc', undefined].includes(jwk.use) &&
     jwk.k.match(/^[A-Za-z0-9_-]{43}$/)
   )
