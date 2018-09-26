@@ -32,7 +32,7 @@
     "lint": "standard --verbose | snazzy",
     "format": "prettier-standard '**/*.js'",
     "test": "ava",
-    "test:cover": "nyc ava",
+    "test:cover": "nyc --reporter=lcov ava",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
