@@ -20,9 +20,10 @@ async function jwe (jwk) {
 
   async function encrypt (value) {
     const dehydratedData = hydra.dehydrate({ value })
-    const cipher = await jose.JWE.createEncrypt({ format: 'compact' }, key)
-      .update(JSON.stringify(dehydratedData))
-      .final()
+    const cipher = await jose.JWE.createEncrypt({ format: 'compact' }, key).final(
+      JSON.stringify(dehydratedData),
+      'utf8'
+    )
     return cipher
   }
 
