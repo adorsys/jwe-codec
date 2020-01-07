@@ -78,14 +78,7 @@ const testValues = [
     date: new Date(42),
     regex: /^fortytwo/,
     buffer: Buffer.from('fortytwo'),
-    array: [
-      null,
-      42,
-      'fortytwo',
-      new Date(42),
-      /^fortytwo$/,
-      Buffer.from('fortytwo')
-    ]
+    array: [null, 42, 'fortytwo', new Date(42), /^fortytwo$/, Buffer.from('fortytwo')]
   }
 ]
 

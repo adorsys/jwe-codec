@@ -80,12 +80,12 @@ jwe(key).then(codec => {
 
 ## Credits
 
-Made with :heart: by [radzom](https://github.com/radzom) and all these wonderful contributors ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Made with :heart: by [radzom](https://github.com/radzom) and all these wonderful contributors ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| <img src="https://avatars.githubusercontent.com/u/1225651?v=3" width="100px;"/><br /><sub><b>Francis Pouatcha</b></sub><br />🤔 | | | | | | |
+| <img src="https://avatars.githubusercontent.com/u/1225651?v=3" width="100px;"/><br /><sub><b>Francis Pouatcha</b></sub><br />🤔 | <img src="https://avatars.githubusercontent.com/u/1560587?v=3" width="100px;"/><br /><sub><b>jkroepke</b></sub><br />💻🐛 | | | | | |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
