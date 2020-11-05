@@ -85,7 +85,7 @@ const testValues = [
 corruptJwks.forEach((jwk, i) => {
   test.cb(`checks jwk ${JSON.stringify(corruptJwks[i])}`, t => {
     ;(async () => {
-      await t.throwsAsync(() => jwe(jwk), 'bad key', 'key is bad')
+      await t.throwsAsync(() => jwe(jwk), {message: 'bad key'}, 'key is bad')
       t.end()
     })()
   })
