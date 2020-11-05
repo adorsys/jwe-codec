@@ -1,8 +1,5 @@
 ---
 name: CI
-
-env:
-  NPM_CONFIG_REGISTRY: https://registry.npmjs.org:8443/
    
 on:
   pull_request:
