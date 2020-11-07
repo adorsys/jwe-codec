@@ -1,4 +1,7 @@
 # :closed_lock_with_key: jwe-codec :closed_lock_with_key:
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
 [![Travis](https://img.shields.io/travis/adorsys/jwe-codec.svg)](https://travis-ci.org/adorsys/jwe-codec)
@@ -83,9 +86,18 @@ jwe(key).then(codec => {
 Made with :heart: by [radzom](https://github.com/radzom) and all these wonderful contributors ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| <img src="https://avatars.githubusercontent.com/u/1225651?v=3" width="100px;"/><br /><sub><b>Francis Pouatcha</b></sub><br />🤔 | <img src="https://avatars.githubusercontent.com/u/1560587?v=3" width="100px;"/><br /><sub><b>jkroepke</b></sub><br />💻🐛 | | | | | |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/francis-pouatcha"><img src="https://avatars1.githubusercontent.com/u/1225651?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Francis Pouatcha</b></sub></a><br /><a href="#ideas-francis-pouatcha" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/jkroepke"><img src="https://avatars3.githubusercontent.com/u/1560587?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan-Otto Kröpke</b></sub></a><br /><a href="#maintenance-jkroepke" title="Maintenance">🚧</a> <a href="#infra-jkroepke" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/adorsys/jwe-codec/issues?q=author%3Ajkroepke" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!

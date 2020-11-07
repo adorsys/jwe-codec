@@ -1,0 +1,35 @@
+{
+  "projectName": "jwe-codec",
+  "projectOwner": "adorsys",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "francis-pouatcha",
+      "name": "Francis Pouatcha",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1225651?v=4",
+      "profile": "https://github.com/francis-pouatcha",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "jkroepke",
+      "name": "Jan-Otto Kröpke",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1560587?v=4",
+      "profile": "https://github.com/jkroepke",
+      "contributions": [
+        "maintenance",
+        "infra",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
